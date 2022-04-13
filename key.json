@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "insuranceportal-e9729",
+  "private_key_id": "b43390d88450a84a9c31f7e0f2c93f5de2250034",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDnRiwJxi+9+8X+\nRQznDzMHZ86OBWPuDX7MZiid7Zpr7XT5OlMlQy0MyDIOjxOGur0oCvWfhtMoTNKR\nqsWeXyG3jFtJ6vCMqrqDWf5zqmVGIXmZjMGyVZmJRMowJI51Jo0aezbhtq/qQ82p\nUZ9jPzZXR9ON88Bwzv8n65yQyJr8AIKHpQCQcM99fdK6ILaqteLRNGfdYO7gqAcd\nhlRQ63CxjheuJzEFhpo1hnvY3quZhapZ7PikemZmTarDcJuIw09WCq4w8BOwFS7R\nfQiESUrLFPw0hxjUnQ36s7ZRxUkr31VcGCD6qPkoAByqka2bNZu6uSENV23wKl91\n4BtiZKvbAgMBAAECggEAMcoUnwIQsyjp5iS9c1z9UmHRwRd9/PjgzGZN5joJ3aRg\nY2tgDQyaPT84L5Qz0vSO1nkNigt/mBR53KxUIRU/8AECgjZXFSGIR9DvC72qUd/R\nCvKXnKn7BOdPU+/6z1O+Wu4d0Zf/5UI1m3ccBkTMkRvAerX4PxEBM3nw2eamHwwg\nLRqYBQAeVT3nLp2gUhtDE+FhfrvHkifjIEM78TOW1nGhRLu/k4ooAuqDYnhKKWPr\nQe2RUB0GaffEsiDVG05vf9l5hsV/5rQ8WiuKj1YiK/xCLyH4iHMrUnjl8xy2Ujjf\nBZZP/ICxbSNopjtAd9miJJset2vns81rhSONGROXoQKBgQD+s/LIoT8dGGCYP31H\nnBgV5OB7I/ax1NjsoP7ud7URZneCYvH9X0HeuX9ApEBMYOYPCPPcOoxDTYmddmVH\n0ohQkqlQaXztR76u+oGIF7e19IeeCfiLaH226UmYVT9neSNfSvkybRCZ0NvaMjc9\ncDjnpNgzk3+uzJ81//AilZwH6wKBgQDoc64PqToE5ChFTUfgypUR1UtRQrWDpbhT\nur1bEBJRigp8beZSfWTWiVrag5t5vGxa412b1HM8NXLqhRnbP5L2hTxvgHM6ggcn\nFoIQ1oUIzA6SRR4UwQ/d9dlfCLjguDXZ5fxD+wMUybVrSJSrTH+BxD3yyE5kE8F2\nYgy+orZf0QKBgQCYHBmbTgkmNB/D7O7BrGwJ70VM5T54F5hxQPjeq6j8OkiXGsZQ\nPepVvExN64nm01uxkPQqCuEndJAB9OopiYcVL3Fkb4tHHbi4QSzIfPme9elkLao8\nf2vMp+fmzMpv3j2MtHa8cbwfUEdsON8alwG0/ZKMwsLXPqa6lh3wWY70fwKBgHnU\nByoWG15s5d5MfpuGEVLjYzIXsGJq/IyFlrCfX7p0isJkJw6cwbjfDEryJw5Kfs+z\n0l/VnP+1U6EuWTrbuv6RHfeibsH/XBhUZ57Dj73olMp8hyOBe/ts2pxASgUdBrxJ\nGUnXyOmgPgEYbTLKSRmN7JnN+afh4sdU5DEVvlfBAoGAH57VbudmIhwDTAcIVmvG\nH/myocB4K3Ga+cpHX+KGQUSn+wcx9FPNibgkXIbH5+k7riOfmcKNVx+YGcWPMQgC\nPKC/s27EBH5qUxUX6x2WAbfiSRz9L1WcIZ+/YyONMBOQBF7sA84lUBBd8Q7bR0c0\nWudVFtcK+6zLdpdMsijnhKc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-uxkqg@insuranceportal-e9729.iam.gserviceaccount.com",
+  "client_id": "113317785881076597930",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-uxkqg%40insuranceportal-e9729.iam.gserviceaccount.com"
+}

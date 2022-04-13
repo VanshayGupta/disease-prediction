@@ -1,0 +1,8 @@
+# requirements.txt
+flask
+firebase_admin
+datetime
+gunicorn
+numpy
+pandas
+tabula-py
