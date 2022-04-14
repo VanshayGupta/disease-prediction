@@ -54,7 +54,9 @@ def home():
     elif(MedRiskFactor>0.596):
         riskLevel="critical ineligible"
     print(riskLevel)
-    return jsonify(str(MedRiskFactor))
+    return jsonify({
+            "Risk_Factor": (str(MedRiskFactor))
+        })
 
 #reading data from Firebase
 def read():
