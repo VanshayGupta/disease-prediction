@@ -45,17 +45,18 @@ def home():
     print(heart_proba, liver_proba, diabetes_proba)
     MedRiskFactor = CalcRisk(heart_proba, liver_proba, diabetes_proba)
     print(MedRiskFactor)
-    if(MedRiskFactor<0.458):
-        riskLevel="low 8"
-    elif(MedRiskFactor<0.518):
-        riskLevel="medium 10"
-    elif(MedRiskFactor<0.596):
-        riskLevel="high 15"
-    elif(MedRiskFactor>0.596):
-        riskLevel="critical ineligible"
+    if(MedRiskFactor<0.484):
+        riskLevel="Low"
+    elif(MedRiskFactor<0.533):
+        riskLevel="Medium"
+    elif(MedRiskFactor<0.619):
+        riskLevel="High"
+    elif(MedRiskFactor>0.619):
+        riskLevel="Critical"
     print(riskLevel)
     return jsonify({
-            "Risk_Factor": (str(MedRiskFactor))
+            "Risk_Factor": (str(MedRiskFactor)),
+            "Risk_Level": (riskLevel)
         })
 
 #reading data from Firebase
