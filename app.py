@@ -5,8 +5,10 @@ import tabula
 import pandas as pd
 from firebase_admin import credentials, firestore, initialize_app, storage
 from datetime import date
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Initialize Firestore DB
 cred = credentials.Certificate('key.json')
@@ -44,13 +46,13 @@ def home():
     MedRiskFactor = CalcRisk(heart_proba, liver_proba, diabetes_proba)
     print(MedRiskFactor)
     if(MedRiskFactor<0.458):
-        riskLevel="low"
+        riskLevel="low 8"
     elif(MedRiskFactor<0.518):
-        riskLevel="medium"
+        riskLevel="medium 10"
     elif(MedRiskFactor<0.596):
-        riskLevel="high"
+        riskLevel="high 15"
     elif(MedRiskFactor>0.596):
-        riskLevel="critical"
+        riskLevel="critical ineligible"
     print(riskLevel)
     return jsonify(str(MedRiskFactor))
 
@@ -78,7 +80,7 @@ def AgeCalc(birthdate):
     age = today.year - year -((today.month, today.day) < (month, day))
     return age
 
-#Medical Reports OCR
+#Medical Reports OCR using tabula-py
 def createDf(report_id):
     blob = bucket.blob("Reports/"+report_id)
     blob.download_to_filename(filename= "medical_report.pdf")
