@@ -84,7 +84,7 @@ def AgeCalc(birthdate):
 def createDf(report_id):
     blob = bucket.blob("Reports/"+report_id)
     blob.download_to_filename(filename= "medical_report.pdf")
-    df_pdf = tabula.read_pdf("med_report.pdf", pages="all")
+    df_pdf = tabula.read_pdf("medical_report.pdf", pages="all")
     df_list=[]
     for i in range(len(df_pdf)):
         df_list.append(df_pdf[i])
