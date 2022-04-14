@@ -6,4 +6,5 @@ gunicorn
 numpy
 pandas
 tabula-py
-scikit-learn
+scikit-
+flask-cors
